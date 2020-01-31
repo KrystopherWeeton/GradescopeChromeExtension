@@ -31,12 +31,12 @@
             },
             "description": "Select the textbox tool"
         },
-        "comment": {
+        "erase": {
             "suggested_key": {
               "default": "Ctrl+Shift+Y",
               "mac": "Command+Shift+Y"
             },
-            "description": "Select the comment tool"
+            "description": "Select the erase tool"
         },
         "highlight": {
             "suggested_key": {

@@ -19,9 +19,8 @@ chrome.extension.onMessage.addListener(
 
 function clickElement(index) {
     var nodeList  = document.querySelectorAll('[style="width: 36px; padding: 0px;"]');
-    console.log('nodeList', nodeList)
+    if (nodeList == undefined || nodeList.length <= index) return;
     var element = nodeList[index];
-    console.log('element', element);
     if (element == undefined) {
         return;
     }

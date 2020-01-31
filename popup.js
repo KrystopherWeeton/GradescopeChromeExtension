@@ -25,11 +25,11 @@ function comment() {
 }
 
 function highlight() {
-    inject_active(3);
+    inject_active(4);
 }
 
 function erase() {
-    inject_active(4);
+    inject_active(5);
 }
 
 document.getElementById('move').addEventListener('click', move);
